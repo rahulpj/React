@@ -11,3 +11,8 @@ why we need hooks?
 
 suppose we are using the same variable in 4 to 5 Ui components so when the value of variable changes we need select all those components with the help of DOM and change everywhere no here comes the use of react we simply use the state varibles and hooks that are provided by react we just change the values as per our needs and react takes care of the changes in the UI component.
 
+Interview question :- Counter Project
+
+bgChanger :- learned that onClick function requires a whole function not the execution of that function which is with parenthesis because it will return the value which function returns but the onClick want the whole function 
+
+passwordGenerator :- Got to know about useEffect,useCallback and useRef hooks. useCallback caches the function defination between consecutive renders.useEffect executes the function based on dependency changes.useRef lets you reference a value that's not needed for rendering
