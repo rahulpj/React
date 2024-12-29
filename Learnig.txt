@@ -16,3 +16,6 @@ Interview question :- Counter Project
 bgChanger :- learned that onClick function requires a whole function not the execution of that function which is with parenthesis because it will return the value which function returns but the onClick want the whole function 
 
 passwordGenerator :- Got to know about useEffect,useCallback and useRef hooks. useCallback caches the function defination between consecutive renders.useEffect executes the function based on dependency changes.useRef lets you reference a value that's not needed for rendering
+
+currencyConvertor :- In this we created a custom hook for fetching the data from api using useEffect and useState inside and calling that custom hook in APP. Also reused the inputbox component passed multiple props. Then created the state variables to manage the state implemented the swap and convert functionality.
+When a parent re-renders, all its child components re-render by default. 
