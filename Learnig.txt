@@ -19,3 +19,10 @@ passwordGenerator :- Got to know about useEffect,useCallback and useRef hooks. u
 
 currencyConvertor :- In this we created a custom hook for fetching the data from api using useEffect and useState inside and calling that custom hook in APP. Also reused the inputbox component passed multiple props. Then created the state variables to manage the state implemented the swap and convert functionality.
 When a parent re-renders, all its child components re-render by default. 
+
+ReactRouterDom :- In react we do not use a tag because if we use a tag the whole page reloads which is not good in place of it we use Link tag. Whereas NavLink is also used for navigating while also managing the "active" state of the link
+The <Outlet> component is a key feature in React Router DOM used for nested routing.
+
+to optimise more we use loader from react router dom which when we click on nav component start or make the call to apis at the same time rather than using useEffect which call when the component mounts.
+
+We use useParams hook to access the the path variables and also useLoaderData hook to access the data from the loader
