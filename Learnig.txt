@@ -26,3 +26,13 @@ The <Outlet> component is a key feature in React Router DOM used for nested rout
 to optimise more we use loader from react router dom which when we click on nav component start or make the call to apis at the same time rather than using useEffect which call when the component mounts.
 
 We use useParams hook to access the the path variables and also useLoaderData hook to access the data from the loader
+
+Context API:-
+The Context API in React is a tool that allows you to share state and data across components without prop drilling (i.e., passing props through multiple levels).
+
+For large-scale applications, use state management libraries like Redux or Zustand for better performance and scalability.
+
+Steps:-
+1) First creating user context using React.createContext
+2) Creating ContextProvider with the help of context created and wraping the children with this provider where we need to use the context.
+3) Use the context you created with the help of useContext hook 
